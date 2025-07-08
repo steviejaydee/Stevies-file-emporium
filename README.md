@@ -6,7 +6,7 @@ Welcome to my file emporium! It's a bunch of tools I threw together in Python wi
 
 ## What's in the box?
 
-Basically, it's a multi-tool for files. It's got a few different tabs for different jobs:
+Basically, it's a multi-tool for downloading and managing files. It's got a few different tabs for different jobs:
 
 ### YouTube Converter
 This is probably the main reason I made this thing. You can chuck in a YouTube URL and get stuff from it.
@@ -15,16 +15,16 @@ This is probably the main reason I made this thing. You can chuck in a YouTube U
 - **Playlist Support:** This also can download whole playlists, without the dumb limits that websites have.
 
 ### Web Scraper
-I added a web scraper, tbh I don't know how useful it is but it works. I like to use it to take images from a webpage, or mass acquiring links from indeed and stuff.
+I added a web scraper, I don't know how useful it is to most people but it works. I like to use it to take images from a webpage, or mass acquiring links from indeed and stuff.
 - **Scrape by Type:** Has presets to grab all the links, images, text, or tables from a URL.
-- **Custom CSS Selectors:** If you know what you're doing, you can use your own CSS selectors to get exactly what you want.
+- **Custom CSS Selectors:** You can use your own CSS selectors to get exactly what you want. I personally would recommend using the presets however.
 - **Save Your Stuff:** You can save the data you've scraped as a CSV or JSON file.
 
 ### PDF Merger
-This one's pretty simple. Got a folder full of PDFs you need to stick together? This is your guy.
-- **Select a Folder:** Just point it at a folder.
+This one's pretty simple. Got a folder full of PDFs you need to stick together? Use this to do that!
+- **Select a Folder**
 - **Numerical Sorting:** It's smart enough to sort the files by number (e.g., `1.pdf`, `2.pdf`, `10.pdf`) so they merge in the right order.
-- **Merge!:** It'll spit out a single `merged.pdf` file in that same folder.
+- **Merge!:** It'll produce a single `merged.pdf` file in that same folder. You can rename this merged file too if you so wish.
 
 ### File Converter
 Pretty self explantory...
